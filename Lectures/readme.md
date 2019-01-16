@@ -33,4 +33,4 @@ editing a file in git bash
   
  [git config](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration, "git config")
 
-Add some edits
+Add some edits - push to github and see the changes
