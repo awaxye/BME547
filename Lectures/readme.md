@@ -3,7 +3,7 @@
 ## Git Fundamentals
 
 
-Create locally or online
+Create locally or remotely
 
 Don't do both - hard to reconcile, merge
 
