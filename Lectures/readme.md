@@ -53,6 +53,8 @@ Can use git checkout -b branch_name
 
 See revision history on github
 
+Can push branch to generate pull request.  Gives ability to review in github.
+
 
 
 
