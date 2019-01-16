@@ -1,8 +1,6 @@
+# First lecture on Git
 
-
-#First lecture on Git
-
-##Git Fundamentals
+## Git Fundamentals
 
 
 Create locally or online
