@@ -10,3 +10,8 @@ Don't do both - hard to reconcile, merge
 Clone to local directory
 
 Available in Windows directory
+
+## Git Bash Navigation
+
+Commands same as linux 
+
