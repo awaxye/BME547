@@ -47,7 +47,11 @@ Completely local!
 
 VIM newfile.txt, git add, git commit -m 'your message here'
 
-To add new file, git checkout master, git merge feature_name
+To add new file, git checkout master, git merge feature_name, git push
+
+Can use git checkout -b branch_name
+
+See revision history on github
 
 
 
