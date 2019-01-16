@@ -4,4 +4,7 @@
 
 
 Create locally or online
+
 Don't do both - hard to reconcile, merge
+
+Clone to local directory
