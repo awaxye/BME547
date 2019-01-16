@@ -21,4 +21,6 @@ don't mess with the .git files
 
 editing a file in git bash
   VIM vs Notepad++
-  
+  git status 
+  git add
+  git commit - add a comment
