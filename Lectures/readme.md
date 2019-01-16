@@ -36,3 +36,20 @@ editing a file in git bash
 Add some edits - push to github and see the changes
 
 Cloning tells you where it goes  git remote -v
+
+##Git Workflow
+
+git branch to create to branch
+
+then git checkout to switch to branch
+
+Completely local!
+
+VIM newfile.txt, git add, git commit -m 'your message here'
+
+To add new file, git checkout master, git merge feature_name
+
+
+
+
+
