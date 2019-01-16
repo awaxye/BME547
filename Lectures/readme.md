@@ -15,3 +15,7 @@ Available in Windows directory
 
 Commands same as linux 
 
+ls -a can show some hidden files
+
+don't mess with the .git files
+
