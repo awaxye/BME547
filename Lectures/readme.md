@@ -30,3 +30,6 @@ editing a file in git bash
   git commit - add a comment
 
   git log
+  
+ [git config](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration, "git config")
+ 
