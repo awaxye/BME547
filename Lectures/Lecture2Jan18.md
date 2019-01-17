@@ -39,7 +39,11 @@ Let's adopt a style for this course.
 Other styles exist such as google style.  Also have syntax checkers to run.
 
 Define 'main' - description without algorithmic function
+
+```
+
    def main():
+```
 
 Define subfunctions
        add_two()
@@ -65,6 +69,16 @@ using colons is shorthand for docstring to indicate a variable
 This approach ensures documentation is generated at the same time as code and not a document constructed later.
 
 add info to def of sub function (v1,v2)
+
+Now add an if statement 
+
+```
+
+if __name__ == "__main__":
+
+```
+
+double underscore, internal python variable that is protected.  Shouldn't mess with it.
 
 
 
