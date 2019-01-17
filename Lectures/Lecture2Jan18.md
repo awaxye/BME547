@@ -94,6 +94,18 @@ __main__;
 when that happens, this conditional statement then executes the
 main() function defined above.  
 
-**You need these two lines to get your program to run as a script from the command line.
+**You need these two lines to get your program to run as a script from the command line.**
 
+Now add v1,v2 to other def's, add some numbers to main ex:  add_two(4,5)
+
+A lot of intfrastructure here for basic functions but will let use do more, including defining testing functions
+
+Usually just cross fingers, hit run and see how it goes.  Fine for just me but more complexity, more people need a more robust way.
+
+Now add functions
+
+```
+p= v1 + v2, etc.
+
+```
 
