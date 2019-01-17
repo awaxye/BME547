@@ -119,7 +119,7 @@ return p
 
 Let's try add, commit...
 
-run as python3 fun.py
+run by typing: python fun.py
 
 ***nope!***
 
