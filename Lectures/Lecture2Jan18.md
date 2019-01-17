@@ -52,8 +52,15 @@ Define subfunctions
  
  def add_two(), etc.
  
- placeholders with comments (***)
+ placeholders with comments (""")
+ 
+ Docstring indicated for comments but also to assemble documentations later on.
 
+For example, :param v1: number one, :param v2: number 2, :returns: product number
+
+using colons is shorthand for docstring to indicate a variable
+
+add this info to def of sub function (v1,v2)
 
 
 
