@@ -9,6 +9,10 @@ Start with simple code -> Modules (collection of functional items)
 
 Make a new repository from gitbash (mkdir, cd to new dir, git init)
 
+Vim fun.py
+
+Define 'main' - description without algorithmic function
+
 
 
 
