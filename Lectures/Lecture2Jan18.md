@@ -80,6 +80,8 @@ if __name__ == "__main__":
 
 double underscore, internal python variable that is protected.  Shouldn't mess with it.
 
+conditional statement says that if I'm running the proram called main, then this true
 
+then call the main function.  
 
 
