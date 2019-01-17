@@ -175,3 +175,9 @@ dependencies for your project at their specific versions.
 ***Run it again!***
 
 Should work now - check for errors in code.
+
+variations...  bat = multiply_two(5,5)
+
+print('This is the output of multiply_two: {}'.format(bat))
+
+discuss variable type integer, float...etc.
