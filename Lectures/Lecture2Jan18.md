@@ -50,7 +50,7 @@ Define subfunctions
        subtract_two()
        multiply_two()
        
-**style to use verbs for functions
+**style to use verbs for functions**
        
  Now work functions.
  
@@ -64,7 +64,7 @@ For example, :param v1: number one, :param v2: number 2, :returns: product numbe
 
 using colons is shorthand for docstring to indicate a variable
 
-**key for medical software
+**key for medical software**
 
 This approach ensures documentation is generated at the same time as code and not a document constructed later.
 
@@ -83,5 +83,17 @@ double underscore, internal python variable that is protected.  Shouldn't mess w
 conditional statement says that if I'm running the proram called main, then this true
 
 then call the main function.  
+
+```
+The __name__ variable is something automatically set by the Python
+interpreter based on the file that is being executed.  When this script is
+being directly executed from the command line, __name__ is set equal to 
+__main__; 
+```
+
+when that happens, this conditional statement then executes the
+main() function defined above.  
+
+**You need these two lines to get your program to run as a script from the command line.
 
 
