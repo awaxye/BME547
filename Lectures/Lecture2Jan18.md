@@ -109,3 +109,10 @@ p= v1 + v2, etc.
 
 ```
 
+consider issues such as v1 - v2 (add to documntation); what if a string is entered, etc.
+
+What about use of p?  Let's add some print(p) statements for now.  Otherwise have to indicate that we will return this value.
+
+return p
+
+
