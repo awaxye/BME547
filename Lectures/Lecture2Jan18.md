@@ -171,3 +171,7 @@ source myProject/bin/activate  # activates your virtual environment
 ```
 This creates a virtual environemnt "sandbox" that will hold all the
 dependencies for your project at their specific versions.
+
+***Run it again!***
+
+Should work now - check for errors in code.
