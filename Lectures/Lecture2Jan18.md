@@ -12,7 +12,9 @@ Make a new repository from gitbash (mkdir, cd to new dir, git init)
 Vim fun.py
 
 Define 'main' - description without algorithmic function
-
+   def main():
+   
+Note that python uses indentation to indicate 
 
 
 
