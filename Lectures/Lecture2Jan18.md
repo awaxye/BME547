@@ -115,4 +115,10 @@ What about use of p?  Let's add some print(p) statements for now.  Otherwise hav
 
 return p
 
+**will this run?**
 
+Let's try add, commit...
+
+run as python3 fun.py
+
+***nope!***
