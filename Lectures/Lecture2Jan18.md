@@ -60,7 +60,11 @@ For example, :param v1: number one, :param v2: number 2, :returns: product numbe
 
 using colons is shorthand for docstring to indicate a variable
 
-add this info to def of sub function (v1,v2)
+**key for medical software
+
+This approach ensures documentation is generated at the same time as code and not a document constructed later.
+
+add info to def of sub function (v1,v2)
 
 
 
