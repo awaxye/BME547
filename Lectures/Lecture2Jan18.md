@@ -122,3 +122,39 @@ Let's try add, commit...
 run as python3 fun.py
 
 ***nope!***
+
+Need to add python to path
+
+switch to home directory ~
+
+VIM .bashrc and
+
+```
+export PATH=/path/to/python/bin/:$PATH
+```
+
+then source ~/.bashrc to run it
+
+Also need to setup a virtual environment
+
+You need to make sure that python and pip are available as executable commands from your command line environment. This will typically involve appending the path to your python executables to your PATH environmental variable. One common way this is done in a bash shell enviroment is to add the following line to your $HOME/.bashrc file:
+
+export PATH=/path/to/python/bin/:$PATH
+⚠️ Do not forget the $PATH at the end; this makes sure that all of your previous executable paths are still accessible!
+
+Then make sure you have the most up to date pip:
+
+For Mac/Linux:
+
+pip install -U pip
+For Windows (using your Command Window, not Git Bash):
+
+python -m pip install -U pip
+Then install the virtual environment creation tool called virtualenv.
+
+pip install virtualenv
+To create a new virtualenv in a project you're working on, first change directory (cd) to your project directory and run:
+
+virtualenv myProject           # creates a virtual environment called "myProject" in your current directory
+source myProject/bin/activate  # activates your virtual environment
+This creates a virtual environemnt "sandbox" that will hold all the dependencies for your project at their specific versions.
