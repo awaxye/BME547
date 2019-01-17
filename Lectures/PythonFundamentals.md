@@ -7,7 +7,7 @@
 ## Setting Up Virtual Enironments
 * Heavily recommended for local computer usage, 100% required for remote
   deployment.
-* Python has a stadard library of functionality; additional functionality is
+* Python has a standard library of functionality; additional functionality is
   imported into projects through additional packages.
   + PyPI is the most popular repository of Python packages.  Conda is an
     alternative repository.
