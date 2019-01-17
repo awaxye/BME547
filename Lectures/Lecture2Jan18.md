@@ -36,10 +36,16 @@ Let's adopt a style for this course.
 
 [Pep8](https://www.python.org/dev/peps/pep-0008/ "PEP 8")
 
+Other styles exist such as google style.  Also have syntax checkers to run.
+
 Define 'main' - description without algorithmic function
    def main():
-   
-Note that python uses indentation to indicate 
+
+Define subfunctions
+       add_two()
+       subtract_two()
+       multiply_two()
+
 
 
 
