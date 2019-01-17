@@ -45,6 +45,12 @@ Define subfunctions
        add_two()
        subtract_two()
        multiply_two()
+       
+       **style to use verbs for functions**
+       
+       Now work functions.
+       def add_two(), etc.
+       placeholders with comments (***)
 
 
 
