@@ -32,7 +32,9 @@ for n, val in enumerate(test_tuple):
 ```
 Not a fixed number of spaces, just have to be consistent.
 
-Let's adopt a style for this course.  [Pep8](https://www.python.org/dev/peps/pep-0008/,'PEP 8")
+Let's adopt a style for this course.  
+
+[Pep8](https://www.python.org/dev/peps/pep-0008/,'PEP 8")
 
 Define 'main' - description without algorithmic function
    def main():
