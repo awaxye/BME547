@@ -49,4 +49,9 @@ let's also look at what python we are using
 
 `which python`
 
+## but what if I have a different setup?
+
+Dr. Ward has put together a nice resource:
+
+https://github.com/dward2/BME547/blob/master/Resources/virtual_environments.md
 
