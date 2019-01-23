@@ -55,3 +55,25 @@ Dr. Ward has put together a nice resource:
 
 https://github.com/dward2/BME547/blob/master/Resources/virtual_environments.md
 
+## Let's add some packages
+
+`pip install numpy`
+
+numpy is like matlab for python
+
+suppose we want to install a bunch of packages
+
+make a requirements.txt file
+
+VIM requirements.txt
+
+add numpy ipython
+
+pip installs from pyPI, conda installs from Conda
+
+pip install -r requirements.txt
+
+
+
+
+
