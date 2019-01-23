@@ -75,5 +75,8 @@ pip install -r requirements.txt
 
 can view installed packages using `pip list`
 
+Doesn't include jupyter, which we will need for next HW
+
+pip install jupyter
 
 
