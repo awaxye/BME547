@@ -1,3 +1,5 @@
+# Python virtual environments
+
 ## Setting Up Virtual Enironments
 * Heavily recommended for local computer usage, 100% required for remote
   deployment.
@@ -14,6 +16,12 @@
       (though commonly-used packages in many projects will be replicated).
   + `virtualenv` will be used to create virtual environments for each Python project.
   + :eyes: Make sure that you have `pip` and `virtualenv` installed on your laptop. :eyes:
+
+Let's create a virtual environment
+
+new repository mkdir test_venv, cd test_venv, git init
+add python 
+
 * Steps towards creating and configuring a virtual environment:
   1. `virtualenv env` (creates a local python virtual environment in `env/`)
   1. `source env/bin/activate` (activate the working environment)
