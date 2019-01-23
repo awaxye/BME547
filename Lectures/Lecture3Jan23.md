@@ -35,7 +35,9 @@ new repository mkdir test_venv, cd test_venv, git init
 
 Now use venv to create virual environment
 * works the same way as virtualenv env but doesn't copy all the python binaries
-* can be easier, less complicated but newer approach (Python 3.3 or later)\
+* can be easier, less complicated but newer approach (Python 3.3 or later)
+
+
 
 
 `python -m venv .venv`
@@ -79,4 +81,16 @@ Doesn't include jupyter, which we will need for next HW
 
 pip install jupyter
 
+type jupyter notebook
 
+Navigate to Dr. Ward's assignment page
+
+https://github.com/dward2/BME547/edit/master/Assignments/PythonFundamentals.ipynb
+
+click on 'raw' and copy and paste all
+
+now open new text file in our repository and paste
+
+save file with ipynb extension
+
+view file on web browser
