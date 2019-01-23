@@ -14,14 +14,8 @@
     - Prevents package version conflicts between different projects.
     - Establishes a minimized storage footprint of packages for each project
       (though commonly-used packages in many projects will be replicated).
-  + `virtualenv` will be used to create virtual environments for each Python project.
-  + :eyes: Make sure that you have `pip` and `virtualenv` installed on your laptop. :eyes:
 
-Let's create a virtual environment
-
-new repository mkdir test_venv, cd test_venv, git init
-add python 
-
+previously we used `virtualenv`  to create virtual environments for our Python project.
 * Steps towards creating and configuring a virtual environment:
   1. `virtualenv env` (creates a local python virtual environment in `env/`)
   1. `source env/bin/activate` (activate the working environment)
@@ -32,3 +26,27 @@ add python
      environments on new systems (e.g., CI testing setups).
   1. Work
   1. `deactivate`
+
+Several methods exist however.
+
+## Let's create a virtual environment a different way
+
+new repository mkdir test_venv, cd test_venv, git init
+
+Now use venv to create virual environment
+* works the same way as virtualenv env but doesn't copy all the python binaries
+* can be easier, less complicated but newer approach (Python 3.3 or later)\
+
+
+`python -m venv .venv`
+
+`source .venv/Scrpits/activate`
+
+
+lets take a look in .venv directory
+can also deactivate
+let's also look at what python we are using  
+
+`which python`
+
+
