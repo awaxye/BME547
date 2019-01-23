@@ -73,7 +73,7 @@ pip installs from pyPI, conda installs from Conda
 
 pip install -r requirements.txt
 
-
+can view installed packages using `pip list`
 
 
 
