@@ -56,6 +56,15 @@ Can also remove them if you need
 git remote rm wax
 ```
 
+## Let's push something out to new repository
+VIM readme.md on gitbash
+add some description
+Git add, git commit
+
+git push wax master  (git push <remote> <branch>)
+  
+Should now be on your github repository
+
 ## Feature Branch Development
 * Use branches to develop new features, fix bugs, try out new things without affecting your `master` branch.
 * A useful branch naming convention: `$USER/$FEATURE`
