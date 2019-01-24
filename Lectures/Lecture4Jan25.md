@@ -8,7 +8,19 @@ Pull will only pull down incremental changes
 
 Git init creates just a blank repository
 
+### Can I clone to github?
 
+not exactly but you can make a new resposotiroy and then push everything there
+
+Create a fresh bare repository on the server:
+```
+git init --bare newrepo.git
+```
+Add it as a remote in your local repo:
+```git remote add newrepo git://user@server.com/newrepo.git
+```
+```git push newrepo master``` to push a particular branch, or
+```git push --all newrepo``` to push all branches
 
 ## Feature Branch Development
 * Use branches to develop new features, fix bugs, try out new things without affecting your `master` branch.
