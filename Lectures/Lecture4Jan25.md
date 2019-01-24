@@ -20,8 +20,24 @@ Add it as a remote in your local repo:
 ```
 git remote add newrepo git://user@server.com/newrepo.git
 ```
+or 
+```
+git remote add newrepo http://github.com/$username/newrepo.git
+```
 ```git push newrepo master``` to push a particular branch, or
 ```git push --all newrepo``` to push all branches
+
+## Where am I pushing and pulling from?
+
+Git remote -v will show remote sites.
+
+Git clone will autmoatically populate git remote with site you cloned (origin)
+
+Can also specify with a catchy name
+
+```git remote add wax https://github/awaxye/workflow
+```
+
 
 ## Feature Branch Development
 * Use branches to develop new features, fix bugs, try out new things without affecting your `master` branch.
