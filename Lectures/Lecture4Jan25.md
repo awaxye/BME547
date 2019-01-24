@@ -10,7 +10,7 @@ Git init creates just a blank repository
 
 ### Can I clone to github?
 
-not exactly but you can make a new respositiry and then push everything there
+not exactly but you can make a new respository and then push everything there
 
 Create a fresh bare repository on the server:
 ```
@@ -28,8 +28,15 @@ or
 ```
 git remote add newrepo http://github.com/$username/newrepo.git
 ```
-```git push newrepo master``` to push a particular branch, or
-```git push --all newrepo``` to push all branches
+```
+git push newrepo master 
+```
+to push a particular branch, or
+``` 
+git push --all newrepo 
+``` 
+to push all branches
+```
 
 ## Where am I pushing and pulling from?
 
@@ -39,9 +46,15 @@ Git clone will autmoatically populate git remote with site you cloned (origin)
 
 Can also specify with a catchy name
 
-```git remote add wax https://github/awaxye/workflow
+```
+git remote add wax https://github.com/awaxye/workflow
 ```
 
+Can also remove them if you need
+
+``` 
+git remote rm wax
+```
 
 ## Feature Branch Development
 * Use branches to develop new features, fix bugs, try out new things without affecting your `master` branch.
