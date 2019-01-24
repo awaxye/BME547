@@ -18,8 +18,6 @@ git init --bare newrepo.git
 ```
 or click new repository on git hub :smile:
 
-```
-
 Add it as a remote in your local repo:
 ```
 git remote add newrepo git://user@server.com/newrepo.git
@@ -36,7 +34,7 @@ to push a particular branch, or
 git push --all newrepo 
 ``` 
 to push all branches
-```
+
 
 ## Where am I pushing and pulling from?
 
