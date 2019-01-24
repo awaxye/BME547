@@ -16,6 +16,10 @@ Create a fresh bare repository on the server:
 ```
 git init --bare newrepo.git
 ```
+or click new repository on git hub :smile:
+
+```
+
 Add it as a remote in your local repo:
 ```
 git remote add newrepo git://user@server.com/newrepo.git
