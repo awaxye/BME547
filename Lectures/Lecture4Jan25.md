@@ -79,9 +79,7 @@ git tag -a 'v0.0.1' -m 'first semantically-versioned tag'
 ```
 git status
 ```
-```
-git log
-```
+git log or git pull can also tell you but dangerous to git pull blindly
 
 ### Forking Repository
 * If you don't have Collaborator access to a repository, you can still create a Pull Request from a *fork* of that repository.
