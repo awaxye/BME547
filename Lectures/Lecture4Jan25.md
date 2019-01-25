@@ -106,6 +106,20 @@ git log or git pull can also tell you but dangerous to git pull blindly
 
 ### Issues 
 
+Report an issue - can tag a user, label or quote the code
+
+Ex: Create a branch to fix the feature  
+
+```
+git checkout -b awaxye\fix_feature
+```
+Fix the issue - can use
+ ```
+ git diff
+ ```
+ to see the changes line by line.
+ 
+
 ### Mission 
 For everything below, `$netid` refers to your Duke Net ID (e.g., `apw2`), not your GitHub username.
 * Fork this repository: https://github.com/apw2/BME547_lecture4_Jan25
