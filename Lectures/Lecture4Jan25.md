@@ -99,7 +99,7 @@ git tag -a 'v0.0.1' -m 'first semantically-versioned tag'
 * `git merge [--squash]`
 
 ### In-Class Mission
-For everything below, `$netid` refers to your Duke Net ID (e.g., `mlp6`), not your GitHub username.
+For everything below, `$netid` refers to your Duke Net ID (e.g., `apw2`), not your GitHub username.
 * Fork this repository: https://github.com/mlp6/bme590s18_lecture03
 * Clone your forked repository to your local computer
 * Create a new branch called `$netid/myinfo`
