@@ -104,6 +104,8 @@ git log or git pull can also tell you but dangerous to git pull blindly
 * Merging can also be be done using the CLI, without a GitHub Pull Request.
 * `git merge [--squash]`
 
+### Issues 
+
 ### Mission 
 For everything below, `$netid` refers to your Duke Net ID (e.g., `apw2`), not your GitHub username.
 * Fork this repository: https://github.com/apw2/BME547_lecture4_Jan25
