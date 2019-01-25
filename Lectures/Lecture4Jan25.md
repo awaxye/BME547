@@ -45,7 +45,7 @@ Git clone will autmoatically populate git remote with site you cloned (origin)
 Can also specify with a catchy name
 
 ```
-git remote add wax https://github.com/awaxye/workflow
+git remote add wax https://github.com/awaxye/classwork
 ```
 
 Can also remove them if you need
@@ -55,7 +55,7 @@ git remote rm wax
 ```
 
 ## Let's push something out to new repository
-VIM readme.md on gitbash
+VIM thirdfile.txt on gitbash
 add some description
 Git add, git commit
 
