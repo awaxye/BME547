@@ -138,7 +138,7 @@ Fix the issue - can use
 
 ### Mission 
 For everything below, `$netid` refers to your Duke Net ID (e.g., `apw2`), not your GitHub username.
-* Fork this repository: https://github.com/apw2/BME547_lecture4_Jan25
+* Fork this repository: https://github.com/awaxye/BME547_lecture4_Jan25
 * Clone your forked repository to your local computer
 * Create a new branch called `$netid/myinfo`
 * In your new branch, create a new file called `$netid.csv`
