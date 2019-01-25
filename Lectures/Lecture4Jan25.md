@@ -98,21 +98,19 @@ git tag -a 'v0.0.1' -m 'first semantically-versioned tag'
 * Merging can also be be done using the CLI, without a GitHub Pull Request.
 * `git merge [--squash]`
 
-### In-Class Mission
+### Mission 
 For everything below, `$netid` refers to your Duke Net ID (e.g., `apw2`), not your GitHub username.
-* Fork this repository: https://github.com/mlp6/bme590s18_lecture03
+* Fork this repository: https://github.com/apw2/BME547_lecture4_Jan25
 * Clone your forked repository to your local computer
 * Create a new branch called `$netid/myinfo`
 * In your new branch, create a new file called `$netid.csv`
 * Add a line to that file that contains:
 ```
-# Firstname, Lastname, Net ID, GitHub Name, Teamname
+# Firstname, Lastname, Net ID, GitHub Name
 # For example:
-Mark, Palmeri, mlp6, mlp6, MetalRules
+Wax, Adam, apw2, awaxye
 ```
-Your Teamname should:
-  + Contain no spaces
-  + Use CamelCase
 * Push your working branch to your GitHub fork
-* Using GitHub, submit a Pull Request to merge your branch on your forked
-  repository back into `mlp6/bme590s18_lecture03`
+* Using GitHub, submit a Pull Request to merge your branch on your forked repository back into `awaxye/BME547_lecture4_Jan25`
+
+
