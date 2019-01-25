@@ -111,13 +111,29 @@ Report an issue - can tag a user, label or quote the code
 Ex: Create a branch to fix the feature  
 
 ```
-git checkout -b awaxye\fix_feature
+git checkout -b awaxye/fix_feature
 ```
 Fix the issue - can use
  ```
  git diff
  ```
  to see the changes line by line.
+ 
+ git commit -am 'fixes feature (closes #n)'
+ 
+ git push - - error for branch
+ 
+ git push --set-upstream origin awaxye/fix_feature
+ 
+ (Creates branch and tracks it)
+ 
+ Looking back on github, refresh if necessary, will get associated with issue
+ 
+ Need to merge the branch, then issue is closed.
+ 
+ Create pull request and then merge via github
+ 
+ Shows changes in text, not just line.  Issue is automatically closed.
  
 
 ### Mission 
