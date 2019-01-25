@@ -75,6 +75,13 @@ git tag -a 'v0.0.1' -m 'first semantically-versioned tag'
 ### Collaboration on Single Repository
 * Settings -> Collaborators
 * Everyone clones the same repository and submits Pull Requests from feature branches.
+* How do you know if you're working on the most current version?  
+```
+git status
+```
+```
+git log
+```
 
 ### Forking Repository
 * If you don't have Collaborator access to a repository, you can still create a Pull Request from a *fork* of that repository.
