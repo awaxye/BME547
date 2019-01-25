@@ -82,6 +82,7 @@ git status
 git log or git pull can also tell you but dangerous to git pull blindly
 
 ### Forking Repository
+* Fork button is on upper right of window.  Click insights to see a list of forks
 * If you don't have Collaborator access to a repository, you can still create a Pull Request from a *fork* of that repository.
 * You *must* commit your changes on a branch of your forked-repository; trying
   to issue a Pull Request from your `master` branch will cause headaches.
