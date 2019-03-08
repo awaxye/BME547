@@ -86,3 +86,5 @@ serving at port 8080
 ```
 
 Open your browser and type localhost:8080 in the address bar.
+
+Make a simple html change and then reload...
