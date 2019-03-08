@@ -177,19 +177,21 @@ Try an example call
 import requests 
   
 # api-endpoint 
-URL = "http://maps.googleapis.com/maps/api/geocode/json"
+URL = "https://maps.googleapis.com/maps/api/geocode/json"
   
 # location given here 
-location = "delhi technological university"
-  
+location = "Duke University"
+key1 = "XXXXX"
+
 # defining a params dict for the parameters to be sent to the API 
-PARAMS = {'address':location} 
+PARAMS = {'address':location,'key':key1} 
   
 # sending get request and saving the response as response object 
 r = requests.get(url = URL, params = PARAMS) 
   
 # extracting data in json format 
-data = r.json() 
+data = r.json()
+print (data)
   
   
 # extracting latitude, longitude and formatted address  
@@ -203,6 +205,8 @@ print("Latitude:%s\nLongitude:%s\nFormatted Address:%s"
       %(latitude, longitude,formatted_address)) 
 ```
 
+You will need to obtain your own API key from google.  
+I will share this process, if you would like.
 
 
 
