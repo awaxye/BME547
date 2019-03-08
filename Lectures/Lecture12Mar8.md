@@ -97,6 +97,27 @@ what IP address corresponds to localhost? 127.0.0.1
 
 Can replace 127.0.0.1 and get same result
 
+You can actually start a web server with python without even having to write any scripts.
+
+call command line from terminal 
+
+```
+python -m http.server 8080
+```
+
+By default, this server will be listening on all interfaces and on port 8080.
+
+If you want to listen to a specific interface, do the following:
+
+```
+python -m http.server 8080 --bind 127.0.0.1
+```
+
+So why write a script when you can just invoke the server easily from the terminal?
+
+Using SimpleHTTPRequestHandler. Want to create custom services which can't do from the terminal.
+
+
 ## Web service design
 
 Cloud is essential to modern products
