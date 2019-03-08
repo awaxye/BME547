@@ -88,3 +88,11 @@ serving at port 8080
 Open your browser and type localhost:8080 in the address bar.
 
 Make a simple html change and then reload...
+
+localhost is a host name that means this computer. It is used to access the network services that are running on the host via the loopback network interface.
+
+And since the web server is listening on any interface, it is also listening on the loopback interface.
+
+what IP address corresponds to localhost? 127.0.0.1
+
+Can replace 127.0.0.1 and get same result
