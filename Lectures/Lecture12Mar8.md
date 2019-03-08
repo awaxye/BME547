@@ -120,11 +120,11 @@ So why write a script when you can just invoke the server easily from the termin
 Using SimpleHTTPRequestHandler. Want to create custom services which can't do from the terminal.
 
 
-## Web service design
+# Web service design
 
 Cloud is essential to modern products
 
-# Application Programming Interfaces (APIs)
+## Application Programming Interfaces (APIs)
 
 Example service: Toaster
 
