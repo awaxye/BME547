@@ -162,7 +162,7 @@ Process on remote machine
     
 Advantage is web service can interact with files on server, such as a database without local copy
 
-Commands you can use include GET POST PUT DEL
+HTTP commands you can use include GET POST PUT DEL
 
 Let's use a more sophisticated HTTP library: requests
 
@@ -208,6 +208,10 @@ print("Latitude:%s\nLongitude:%s\nFormatted Address:%s"
 You will need to obtain your own API key from google.  
 I will share this process, if you would like.
 
+GET obtains data from the server
+POST sends data to server, like "PUSH"
+DEL removes data
+PUT sends data to server but can update or create
 
 
 
