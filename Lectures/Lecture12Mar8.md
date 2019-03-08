@@ -96,3 +96,41 @@ And since the web server is listening on any interface, it is also listening on 
 what IP address corresponds to localhost? 127.0.0.1
 
 Can replace 127.0.0.1 and get same result
+
+## Web service design
+
+Cloud is essential to modern products
+
+# Application Programming Interfaces (APIs)
+
+Example service: Toaster
+
+
+Toaster -- how do we interact?
+toast(num_seconds)
+reset() -- resets toaster to idle, ejects toast
+get_state()
+
+```
+STATE_IDLE = "IDLE"
+STATE_TOAST = "TOASTING"
+    
+class Toaster:
+    def __init__(self):
+        self.toast_state = STATE_IDLE
+        self.temp = 20
+
+    def toast(self, num_seconds):
+        self.toast_state = STATE_TOAST
+        self.temp = 90
+        wait(num_seconds)
+        self.reset()
+        
+   def reset(self):
+        self.toast_state = STATE_IDLE
+        self.temp = 20
+```
+
+
+
+
