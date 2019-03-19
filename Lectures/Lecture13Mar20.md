@@ -34,7 +34,7 @@ https://github.com/dward2/BME547/blob/master/Resources/virtual_machines.md
 We will use VM for our webservers.  Probably best to request no power off option.
 
 
-# Building Flask Web Services
+## Building Flask Web Services
 
 [Flask](http://flask.pocoo.org/) is a python library that allows us to create a web service that can expose a RESTful API. We will be using Flask in this class, but it's good to know that there are other python libraries and frameworks that do this too like python [Tornado](http://www.tornadoweb.org/en/stable/) (offers non-blocking calls) and [Django](https://www.djangoproject.com/). 
 
