@@ -27,6 +27,9 @@ https://github.com/dward2/BME547/blob/server_in_class_items/Resources/WebService
 Check out different ways to interact with this server
 https://github.com/dward2/BME547/blob/server_in_class_items/Resources/WebServices/requests.ipynb
 
+## Mini-project
+https://github.com/dward2/BME547/blob/server_in_class_items/Lectures/name_server_project.md
+
 
 # Powering a server of your own
 First, see info page on virtual machines
