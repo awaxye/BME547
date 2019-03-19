@@ -24,6 +24,8 @@ Let's run through his example interaction with github...
 We can also look at a homemade server:  countries
 https://github.com/dward2/BME547/blob/server_in_class_items/Resources/WebServices/country_server_api.md
 
+Check out different ways to interact with this server
+https://github.com/dward2/BME547/blob/server_in_class_items/Resources/WebServices/requests.ipynb
 
 
 # Powering a server of your own
