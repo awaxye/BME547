@@ -66,7 +66,7 @@ def getData():
   Returns the data dictionary below to the caller as JSON
   """
   data = {
-    "name": "Suyash",
+    "name": "Adam",
     "team": "instructor"
   }
   return jsonify(data) # respond to the API caller with a JSON representation of data. jsonify is important, as it sets response headers that indicate the respose is in JSON as well
