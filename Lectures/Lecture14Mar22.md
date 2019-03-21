@@ -4,9 +4,12 @@ Review general info flow:
 https://github.com/dward2/BME547/blob/master/Resources/WebServices/server_client_diagram.md
 
 
-Look at specific example - BMI calculator
+Look at specific example - ideal weight calculator
 https://github.com/dward2/BME547/blob/master/Resources/WebServices/server_client_interactions.md
 
+code is available at 
+https://github.com/dward2/BME547/blob/master/Resources/WebServices/iwc_client.py
+https://github.com/dward2/BME547/blob/master/Resources/WebServices/iwc_server.py
 
 web server
 https://github.com/dward2/BME547/blob/master/Resources/WebServices/flask_web_server.md
