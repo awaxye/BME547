@@ -18,6 +18,28 @@ https://github.com/dward2/BME547/blob/master/Resources/WebServices/flask_web_ser
 
 ## How to use more than one screen remotely
 
+Let's get this running on our VM
+
+First, set up a new repository in git hub - called mine web-app-design
+
+```
+git init
+git add .
+git commit -m "first commit"
+```
+Copy URL of repository on github
+```
+git remote add origin <URL>
+git remote -v
+git push origin master
+```
+
+Now open a terminal window to the vm and clone repository
+```
+git clone <URL>
+```
+
+
 Screen
 
 https://github.com/dward2/BME547/blob/master/Resources/WebServices/screen.md
