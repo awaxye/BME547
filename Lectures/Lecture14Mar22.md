@@ -8,6 +8,7 @@ Look at specific example - ideal weight calculator
 https://github.com/dward2/BME547/blob/master/Resources/WebServices/server_client_interactions.md
 
 code is available at 
+
 https://github.com/dward2/BME547/blob/master/Resources/WebServices/iwc_client.py
 https://github.com/dward2/BME547/blob/master/Resources/WebServices/iwc_server.py
 
