@@ -118,7 +118,7 @@ gunicorn --bind 0.0.0.0:5000 iwc_server:app
 gunicorn --bind 127.0.0.1:5000 --workers 4 iwc_server:app
 ```
 
-##sending emails
+## sending emails
 
 https://github.com/dward2/BME547/blob/master/Resources/WebServices/sendgrid.md
 
