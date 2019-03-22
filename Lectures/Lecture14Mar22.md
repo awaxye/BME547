@@ -38,7 +38,21 @@ Now open a terminal window to the vm and clone repository
 ```
 git clone <URL>
 ```
+Need to set up virtual env again
+First install pip (can take some time)
+```
+sudo apt install python3-pip
+```
+Verify installation with
+```
+python3 -m pip version
+```
+Should be 9.0.1
 
+Now install virtualenv
+```
+python3 -m pip install --user virtualenv
+```
 
 Screen
 
