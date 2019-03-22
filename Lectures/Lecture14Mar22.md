@@ -61,7 +61,23 @@ and activate
 ```
 source env/bin/activate
 ```
+Don't forget to install dependencies
+```
+pip install -r requirements.txt
+```
 
+Now we can run server app
+```
+python3 iwc_server.py
+```
+Switch windows 
+```
+ctrl-a "
+```
+then execute code for client
+```
+python3 iwc_client.py
+```
 
 Screen
 
