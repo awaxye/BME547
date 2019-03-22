@@ -53,6 +53,15 @@ Now install virtualenv
 ```
 python3 -m pip install --user virtualenv
 ```
+Now set up virtual env
+```
+python3 -m virtualenv env
+```
+and activate
+```
+source env/bin/activate
+```
+
 
 Screen
 
