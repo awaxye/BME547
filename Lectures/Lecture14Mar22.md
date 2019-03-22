@@ -101,6 +101,6 @@ https://github.com/dward2/BME547/blob/master/Resources/WebServices/sendgrid.md
 ## Mini-project
 * Push your web service from last class to a github repository `flask_getting_started` under your github user
 * Clone your repository to your VM
-* Deploy it using gunicorn in a `screen`
-* Write a client program (`client.py`) using the `requests` library (see the [previous lecture](../intro_web_services/Requests.ipynb)) that calls every API written on your web server and outputs the results to `STDOUT` (your terminal). You should be sending requests to an address that looks something like `vcm-3461.vm.duke.edu:5000`. 
+* Deploy it in a `screen`
+* Write a client program (`client.py`) using the `requests` library (see the [previous lecture](../intro_web_services/Requests.ipynb)) that calls every API written on your web server and prints the results to your terminal. You should be sending requests to an address that looks something like `vcm-xxxx.vm.duke.edu:5000`. 
 * Commit this client program into your `flask_getting_started` repository (even though it is not needed for the server side of this project).
