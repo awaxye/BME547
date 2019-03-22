@@ -45,7 +45,7 @@ sudo apt install python3-pip
 ```
 Verify installation with
 ```
-python3 -m pip version
+python3 -m pip --version
 ```
 Should be 9.0.1
 
