@@ -12,7 +12,7 @@ MongoDB is just a program (like your flask server) that runs on a machine and re
 
 Let's look through a simple example of using a database from a python program: 
 
-:eyes: To see a detailed example walkthrough of using pymodm see the [example jupyter notebook](databases/mongo-example.ipynb) :eyes:
+:eyes: To see a detailed example walkthrough of using pymodm see the [example jupyter notebook](Databases/mongo-example.ipynb) :eyes:
 
 You may need to install pymodm using 
 ```
